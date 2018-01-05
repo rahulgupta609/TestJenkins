@@ -1,3 +1,4 @@
+
 package hashedin.smartshift.appiumTest.SmartShift;
 
 import junit.framework.Test;
@@ -25,7 +26,7 @@ public class AppTest
      */
     public static Test suite()
     {
-        return new TestSuite( AppTest.class );
+        return new TestSuite( BaseTest.class );
     }
 
     /**
